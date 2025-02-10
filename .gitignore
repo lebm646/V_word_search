@@ -1,0 +1,47 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+*.venv
+*.env
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and temporary data files
+*.log
+scraped_data.json
+debug.log
+
+# Ignore the words dictionary file (optional, remove if you want to track it)
+words.txt
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
